@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Desarrollador Fullstack - Santiago, Chile.",
+    siteUrl: "https://www.ignacioquinteros.cl",
+    description: "Mi nombre es Javier Ignacio Quinteros, pero tu puedes llamarme cuando quieras, osea, siempre que necesites un Desarrollador Fullstack.",
   },
   plugins: [
     "gatsby-plugin-sharp",
