@@ -7,7 +7,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
-    "gatsby-plugin-material-ui",
+    "gatsby-theme-material-ui",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
