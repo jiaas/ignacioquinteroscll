@@ -1,13 +1,12 @@
 import * as React from "react"
 import { Grid } from "@material-ui/core"
-import {Helmet} from 'react-helmet'
 
 
 // styles
 const layoutStyle=
 { 
   fontFamily: "Poppins, sans-serif",
-  color: "#eef8ff",
+  color: "#141414",
 }
 
 const mainBox ={
@@ -23,23 +22,18 @@ const mainTitle = {
 }
 
 const secondaryTitle = {
-  fontSize: "150%",
+  fontSize: "195%",
   fontWeight: "100",
 }
 
 const fancyFont = {
-  color: "#ff9f1c !important",
+  color: "#eec643 !important",
 }
-
-
 
 // markup
 const IndexPage = () => {
   return (     
       <main style={layoutStyle}>
-          <Helmet>
-                <style>{'body { background-color: black; }'}</style>
-          </Helmet>
             <title>Desarrollador Fullstack - Santiago, Chile.</title>
             <Grid container
                   direction="column"
