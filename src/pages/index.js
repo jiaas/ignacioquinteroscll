@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Grid } from "@material-ui/core"
+
 
 
 // styles
@@ -35,25 +35,7 @@ const IndexPage = () => {
   return (     
       <main style={layoutStyle}>
             <title>Desarrollador Fullstack - Santiago, Chile.</title>
-            <Grid container
-                  direction="column"
-                  justify="flex-start"
-                  alignItems="center"
-                  spacing={10}
-                  style={mainBox}>
-              <Grid container
-              
-              style={mainTitle}    
-              >
-                <h1>Primero que nada, buenos días<span style={fancyFont} >.</span></h1>    
-              </Grid>
-              <Grid container
-              style={secondaryTitle}    
-              >
-                <h3>Buscabas un Desarrollador Fullstack?</h3>    
-              </Grid>
-            </Grid>
-            
+
             
           </main>
    
