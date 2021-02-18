@@ -33,7 +33,7 @@ const index = () => {
               <Card.Img variant="top" src="holder.js/100px160" />
               <Card.Body>
                 <Card.Title style={{ fontWeight: "bold" }}>
-                  Una historia: El por qué de este sitio web.
+                  Una historia: ¿Por qué construí este sitio web?
                 </Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
