@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "gatsby";
+
 const layout = ({ children }) => {
   return (
     <>
@@ -12,17 +13,6 @@ const layout = ({ children }) => {
           fixed="top"
           role="navigation"
         >
-          <Navbar.Brand>
-            <Link
-              style={{
-                boxShadow: `none`,
-                textDecoration: "none",
-                color: "gray",
-              }}
-              to="/"
-            >
-            </Link>
-          </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="navbarSupportedContent"
             aria-expanded="false"

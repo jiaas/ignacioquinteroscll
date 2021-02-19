@@ -17,7 +17,7 @@ const CardDeckComponent = () => {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title style={{ fontWeight: "bold" }}>
             Un consejo: Lo perfecto es enemigo de lo bueno.
@@ -29,7 +29,7 @@ const CardDeckComponent = () => {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title style={{ fontWeight: "bold" }}>
             Un pensamiento: El arte de aprender a aprender.
