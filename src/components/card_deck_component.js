@@ -1,9 +1,22 @@
 import React from "react";
-import { Card, CardDeck } from "react-bootstrap";
+import { Card, CardDeck, Container } from "react-bootstrap";
 
+const title = {
+  fontFamily: "Poppins, sans-serif !important",
+  fontSize: "150%",
+  paddingTop: "2%",
+  paddingBottom: "2%",
+  textDecorationLine: "underline",
+};
 const CardDeckComponent = () => {
   return (
-    <CardDeck>
+    <CardDeck style={{ paddingBottom: "5%" }}>
+      <Container>
+        <center>
+          <h1 style={title}>Últimos posts</h1>
+        </center>
+      </Container>
+
       <Card>
         <Card.Img variant="top" src="" />
         <Card.Body>

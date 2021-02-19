@@ -4,6 +4,8 @@ import NavbarComponent from "../components/navbar_component";
 import { Container, Row, Col } from "react-bootstrap";
 import CardDeckComponent from "../components/card_deck_component";
 import { Helmet } from "react-helmet";
+import yourSVG from "../../assets/images/capi2.png";
+import BigImage from "../components/big_image_component";
 
 const main = {
   fontFamily: "Poppins, sans-serif !important",
@@ -20,7 +22,7 @@ const secondaryText = {
 };
 
 const jumbotron = {
-  paddingBottom: "7%",
+  paddingBottom: "5%",
   paddingTop: "7%",
 };
 
@@ -43,6 +45,9 @@ const index = () => {
         </Col>
         <Col sm="12" m="12" l="12">
           <CardDeckComponent></CardDeckComponent>
+        </Col>
+        <Col>
+          <BigImage></BigImage>
         </Col>
       </Row>
     </Container>
