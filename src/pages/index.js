@@ -5,9 +5,10 @@ import NavbarComponent from "../components/navbar_component";
 import { Container, Row, Col } from "react-bootstrap";
 import CardDeckComponent from "../components/card_deck_component";
 
+import Layout from "../components/layout_component";
+
 import BigImage from "../components/big_image_component";
 import FooterComponent from "../components/footer_component";
-import ThemeTogglerComponent from "../components/theme_toggler_component";
 
 const main = {
   fontFamily: "Poppins, sans-serif !important",
@@ -29,7 +30,6 @@ const jumbotron = {
 const index = () => {
   return (
     <Container style={main}>
-      <ThemeTogglerComponent></ThemeTogglerComponent>
       <Row>
         <Col sm={"12"} md={"12"} lg={"12"}>
           <NavbarComponent></NavbarComponent>

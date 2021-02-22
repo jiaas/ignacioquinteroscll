@@ -4,7 +4,7 @@ import { Card, CardDeck } from "react-bootstrap";
 const CardDeckComponent = () => {
   return (
     <CardDeck style={{ paddingBottom: "5%" }}>
-      <Card bg="warning">
+      <Card>
         <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title style={{ fontWeight: "bold", color: "#1a535c" }}>
@@ -16,7 +16,7 @@ const CardDeckComponent = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card border="warning">
+      <Card style={{ fontWeight: "bold", color: "#1a535c" }}>
         <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title style={{ fontWeight: "bold" }}>
@@ -28,7 +28,7 @@ const CardDeckComponent = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card border="warning">
+      <Card style={{ fontWeight: "bold", color: "#1a535c" }}>
         <Card.Img variant="top" src="" />
         <Card.Body>
           <Card.Title style={{ fontWeight: "bold" }}>

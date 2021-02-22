@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import logoSVG from "../../assets/images/logo.svg";
+import Toggler from "../components/layout_component";
 
 const navbar = {
   fontFamily: "Poppins, sans-serif !important",
@@ -31,13 +32,7 @@ const NavbarComponent = () => {
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
         <Nav.Link href="#home" style={linkStyle}>
-          Inicio
-        </Nav.Link>
-        <Nav.Link href="#home" style={linkStyle}>
-          Blog
-        </Nav.Link>
-        <Nav.Link href="#home" style={linkStyle}>
-          Contacto
+          <Toggler />
         </Nav.Link>
       </Navbar.Collapse>
     </Navbar>

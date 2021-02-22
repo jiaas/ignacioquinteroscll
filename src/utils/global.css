@@ -1,7 +1,7 @@
 body {
     --bg: white;
-    --textNormal: #222;
-    --textTitle: #222;
+    --textNormal: #1a535c;
+    --textTitle: #1a535c;
     --textLink: blue;
     --hr: hsla(0, 0%, 0%, 0.2);
   
@@ -11,7 +11,7 @@ body {
   body.dark {
     -webkit-font-smoothing: antialiased;
   
-    --bg: darkslategray !important;
+    --bg: #1a535c !important;
     --textNormal: rgba(255, 255, 255, 0.88) !important;
     --textTitle: white !important;
     --textLink: yellow !important;
