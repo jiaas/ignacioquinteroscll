@@ -1,13 +1,6 @@
 import React from "react";
-import { Card, CardDeck, Container } from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 
-const title = {
-  fontFamily: "Poppins, sans-serif !important",
-  fontSize: "150%",
-  paddingTop: "2%",
-  paddingBottom: "2%",
-  textDecorationLine: "underline",
-};
 const CardDeckComponent = () => {
   return (
     <CardDeck style={{ paddingBottom: "5%" }}>
