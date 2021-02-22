@@ -5,24 +5,25 @@ import { Container, Row, Col } from "react-bootstrap";
 import CardDeckComponent from "../components/card_deck_component";
 import { Helmet } from "react-helmet";
 import BigImage from "../components/big_image_component";
+import FooterComponent from "../components/footer_component";
 
 const main = {
   fontFamily: "Poppins, sans-serif !important",
 };
 
 const bigTitle = {
-  color: "#031927",
+  color: "#1a535c",
   fontWeight: "bold",
   fontSize: "380%",
 };
 
 const secondaryText = {
-  color: "#596475 !important",
+  color: "#4ecdc4 !important",
 };
 
 const jumbotron = {
   paddingBottom: "5%",
-  paddingTop: "7%",
+  paddingTop: "5%",
 };
 
 const index = () => {
@@ -31,10 +32,14 @@ const index = () => {
       <Helmet>
         <style type="text/css">
           {`
-        body {background-color: #FFFFFF;}}`}
+        body {background-color: #f7fff7;}}`}
         </style>
       </Helmet>
-      <NavbarComponent></NavbarComponent>
+      <Row>
+        <Col sm={"12"} md={"12"} lg={"12"}>
+          <NavbarComponent></NavbarComponent>
+        </Col>
+      </Row>
       <Row>
         <Col sm={"12"} md={"12"} lg={"12"} style={jumbotron}>
           <h1 style={bigTitle}>Primero que nada, buenas noches.</h1>
@@ -45,6 +50,11 @@ const index = () => {
         </Col>
         <Col>
           <BigImage></BigImage>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <FooterComponent></FooterComponent>
         </Col>
       </Row>
     </Container>

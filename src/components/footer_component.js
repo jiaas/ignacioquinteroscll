@@ -11,14 +11,14 @@ const navbar = {
 };
 
 const linkStyle = {
-  color: "#1a535c",
+  color: "#031927",
   fontFamily: "Poppins, sans-serif !important",
-  fontSize: "130%",
+  fontSize: "150%",
 };
 
-const NavbarComponent = () => {
+const FooterComponent = () => {
   return (
-    <Navbar sticky="top" style={navbar}>
+    <Navbar style={navbar}>
       <Navbar.Brand href="#home">
         <img
           src={logoSVG}
@@ -44,4 +44,4 @@ const NavbarComponent = () => {
   );
 };
 
-export default NavbarComponent;
+export default FooterComponent;

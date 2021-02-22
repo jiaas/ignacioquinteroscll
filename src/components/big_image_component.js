@@ -16,6 +16,7 @@ const bigTitle = {
   fontSize: "200%",
   fontWeight: "bold",
   paddingBottom: "5%",
+  textAlign: "justify",
 };
 
 const bigImage = () => {
