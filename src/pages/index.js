@@ -4,7 +4,6 @@ import NavbarComponent from "../components/navbar_component";
 import { Container, Row, Col } from "react-bootstrap";
 import CardDeckComponent from "../components/card_deck_component";
 import { Helmet } from "react-helmet";
-import yourSVG from "../../assets/images/capi2.png";
 import BigImage from "../components/big_image_component";
 
 const main = {

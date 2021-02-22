@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import yourSVG from "../../assets/images/capi2.png";
-import dog from "../../assets/images/dog.svg";
-import park from "../../assets/images/park.svg";
+import dogSVG from "../../assets/images/dog.svg";
+import callSVG from "../../assets/images/call.svg";
+import shotSVG from "../../assets/images/shot.svg";
+import videoSVG from "../../assets/images/video.svg";
+import selfieSVG from "../../assets/images/selfie.svg";
 
 const main = {
   fontFamily: "Poppins, sans-serif !important",
@@ -13,117 +15,163 @@ const main = {
 const bigTitle = {
   fontSize: "200%",
   fontWeight: "bold",
+  paddingBottom: "5%",
 };
 
 const bigImage = () => {
   return (
     <Container style={main}>
-      <Row>
-        <Col xs={12} md={6} lg={6} style={{ paddingTop: "3%" }}>
+      <Row style={{ verticalAlign: "middle", alignItems: "center" }}>
+        <Col xs={12} md={6} lg={6}>
           <Col>
-            <h2 style={bigTitle}>Soporte técnico y capacitación de usuarios</h2>
+            <h3 style={bigTitle}>Soporte técnico y capacitación de usuarios</h3>
           </Col>
           <Col>
-            <h4>
+            <h5 style={{ textAlign: "justify" }}>
               From powerful websites with modern designs to animated
               award-winning developments, the possibilities are endless. We
               deploy the best technologies for the job, from highly configurable
               Wordpress sites to blazing fast JAMstack applications.
-            </h4>
+            </h5>
           </Col>
         </Col>
         <Col xs={12} md={6} lg={6}>
-          <center>
-            <Image src={dog} fluid />
-          </center>
+          <Image
+            src={dogSVG}
+            fluid
+            width="80%"
+            height="80%"
+            style={{
+              paddingLeft: "10%",
+              paddingRight: "10%",
+              paddingTop: "5%",
+              paddingBottom: "5%",
+            }}
+          />
         </Col>
       </Row>
 
-      <Row>
+      <Row style={{ verticalAlign: "middle", alignItems: "center" }}>
         <Col xs={12} md={6} lg={6}>
-          <center>
-            <Image src={dog} fluid />
-          </center>
+          <Image
+            src={callSVG}
+            fluid
+            width="80%"
+            height="80%"
+            style={{
+              paddingLeft: "10%",
+              paddingRight: "10%",
+              paddingTop: "5%",
+              paddingBottom: "5%",
+            }}
+          />
         </Col>
-        <Col xs={12} md={6} lg={6} style={{ paddingTop: "3%" }}>
+        <Col xs={12} md={6} lg={6}>
           <Col>
-            <h2 style={bigTitle}>
+            <h3 style={bigTitle}>
               Mantención, mejora y optimización de código
-            </h2>
+            </h3>
           </Col>
           <Col>
-            <h4>
+            <h5 style={{ textAlign: "justify" }}>
               From powerful websites with modern designs to animated
               award-winning developments, the possibilities are endless. We
               deploy the best technologies for the job, from highly configurable
               Wordpress sites to blazing fast JAMstack applications.
-            </h4>
+            </h5>
           </Col>
         </Col>
       </Row>
 
-      <Row>
-        <Col xs={12} md={6} lg={6} style={{ paddingTop: "3%" }}>
+      <Row style={{ verticalAlign: "middle", alignItems: "center" }}>
+        <Col xs={12} md={6} lg={6}>
           <Col>
-            <h2 style={bigTitle}>Diseño de Productos Tecnológicos (UI, UX)</h2>
+            <h3 style={bigTitle}>Diseño de Productos Tecnológicos (UI, UX)</h3>
           </Col>
           <Col>
-            <h4>
+            <h5 style={{ textAlign: "justify" }}>
               From powerful websites with modern designs to animated
               award-winning developments, the possibilities are endless. We
               deploy the best technologies for the job, from highly configurable
               Wordpress sites to blazing fast JAMstack applications.
-            </h4>
+            </h5>
           </Col>
         </Col>
         <Col xs={12} md={6} lg={6}>
-          <center>
-            <Image src={dog} fluid />
-          </center>
+          <Image
+            src={shotSVG}
+            fluid
+            width="80%"
+            height="80%"
+            style={{
+              paddingLeft: "10%",
+              paddingRight: "10%",
+              paddingTop: "5%",
+              paddingBottom: "5%",
+            }}
+          />
         </Col>
       </Row>
 
-      <Row>
+      <Row style={{ verticalAlign: "middle", alignItems: "center" }}>
         <Col xs={12} md={6} lg={6}>
-          <center>
-            <Image src={dog} fluid />
-          </center>
+          <Image
+            src={videoSVG}
+            fluid
+            width="80%"
+            height="80%"
+            style={{
+              paddingLeft: "10%",
+              paddingRight: "10%",
+              paddingTop: "5%",
+              paddingBottom: "5%",
+            }}
+          />
         </Col>
-        <Col xs={12} md={6} lg={6} style={{ paddingTop: "3%" }}>
+        <Col xs={12} md={6} lg={6}>
           <Col>
-            <h2 style={bigTitle}>
+            <h3 style={bigTitle}>
               Desarrollo Fullstack de Aplicaciones Multiplataforma
-            </h2>
+            </h3>
           </Col>
           <Col>
-            <h4>
+            <h5 style={{ textAlign: "justify" }}>
               From powerful websites with modern designs to animated
               award-winning developments, the possibilities are endless. We
               deploy the best technologies for the job, from highly configurable
               Wordpress sites to blazing fast JAMstack applications.
-            </h4>
+            </h5>
           </Col>
         </Col>
       </Row>
 
-      <Row>
-        <Col xs={12} md={6} lg={6} style={{ paddingTop: "3%" }}>
+      <Row style={{ verticalAlign: "middle", alignItems: "center" }}>
+        <Col xs={12} md={6} lg={6}>
           <Col>
-            <h2 style={bigTitle}>Coordinador de Equipos de Desarrollo</h2>
+            <h3 style={bigTitle}>Coordinador de Equipos de Desarrollo</h3>
           </Col>
           <Col>
-            <h4>
+            <h5 style={{ textAlign: "justify" }}>
               From powerful websites with modern designs to animated
               award-winning developments, the possibilities are endless. We
               deploy the best technologies for the job, from highly configurable
               Wordpress sites to blazing fast JAMstack applications.
-            </h4>
+            </h5>
           </Col>
         </Col>
         <Col xs={12} md={6} lg={6}>
-          <center>
-            <Image src={dog} fluid />
-          </center>
+          <Image
+            src={selfieSVG}
+            fluid
+            width="80%"
+            height="80%"
+            style={{
+              paddingLeft: "10%",
+              paddingRight: "10%",
+              paddingTop: "5%",
+              paddingBottom: "5%",
+            }}
+          />
         </Col>
       </Row>
     </Container>

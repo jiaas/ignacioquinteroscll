@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import yourSVG from "../../assets/images/capi2.png";
+import logoSVG from "../../assets/images/logo.svg";
 
 const navbar = {
   fontFamily: "Poppins, sans-serif !important",
@@ -21,10 +21,10 @@ const NavbarComponent = () => {
     <Navbar style={navbar}>
       <Navbar.Brand href="#home">
         <img
-          src={yourSVG}
+          src={logoSVG}
           alt="React Bootstrap logo"
-          width="50"
-          height="50"
+          width="100"
+          height="100"
           className="d-inline-block align-top"
         />
       </Navbar.Brand>
