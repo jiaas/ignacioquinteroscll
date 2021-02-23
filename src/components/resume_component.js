@@ -1,6 +1,23 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, Badge } from "react-bootstrap";
 import dogSVG from "../../assets/images/capi2.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendar,
+  faCoffee,
+  faEnvelope,
+  faInbox,
+  faLocationArrow,
+  faMapPin,
+  faSearchLocation,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faLinkedinIn,
+  faMailchimp,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const box = {
   backgroundColor: "white",
@@ -41,19 +58,43 @@ const ResumeComponent = () => {
                               Desarrollador Fullstack
                             </Badge>
                             <Row>
-                              <Col xs={4} md={4} lg={4}>
-                                <p>icono 1</p>
+                              <Col
+                                xs={4}
+                                md={4}
+                                lg={4}
+                                style={{ paddingTop: "5%" }}
+                              >
+                                <FontAwesomeIcon icon={faLinkedin} />
                               </Col>
-                              <Col xs={4} md={4} lg={4}>
-                                <p>icono 2</p>
+                              <Col
+                                xs={4}
+                                md={4}
+                                lg={4}
+                                style={{ paddingTop: "5%" }}
+                              >
+                                <FontAwesomeIcon icon={faGithub} />
                               </Col>
-                              <Col xs={4} md={4} lg={4}>
-                                <p>icono 2</p>
+                              <Col
+                                xs={4}
+                                md={4}
+                                lg={4}
+                                style={{ paddingTop: "5%" }}
+                              >
+                                <FontAwesomeIcon icon={faTwitter} />
                               </Col>
                             </Row>
-                            <h3>Calendario</h3>
-                            <h3>Ciudad</h3>
-                            <h3>correo</h3>
+                            <h6>
+                              <FontAwesomeIcon icon={faCalendar} /> 10 de
+                              Octubre, 1995
+                            </h6>
+                            <h6>
+                              <FontAwesomeIcon icon={faMapPin} /> Santiago,
+                              Chile.
+                            </h6>
+                            <h6>
+                              <FontAwesomeIcon icon={faEnvelope} />{" "}
+                              javier@nora.cl
+                            </h6>
                           </center>
                         </Col>
                       </Row>
@@ -63,7 +104,11 @@ const ResumeComponent = () => {
                 <Col xs={12} md={9} lg={9} style={{ paddingTop: "3%" }}>
                   <Col xs={12} md={12} lg={12}>
                     <h3>About Me</h3>
-                    <p>Lorem Ipsum</p>
+                    <p>
+                      Soy un Analista Programador de 25 años, nací en Chile y
+                      actualmente vivo la comuna de Pedro Aguirre Cerda,
+                      Santiago.
+                    </p>
                   </Col>
                 </Col>
               </Row>
