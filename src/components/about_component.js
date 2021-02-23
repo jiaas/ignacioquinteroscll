@@ -6,12 +6,6 @@ import shotSVG from "../../assets/images/shot.svg";
 import videoSVG from "../../assets/images/video.svg";
 import selfieSVG from "../../assets/images/selfie.svg";
 
-const main = {
-  fontFamily: "Poppins, sans-serif !important",
-  padding: 0,
-  margin: 0,
-};
-
 const bigTitle = {
   fontSize: "200%",
   fontWeight: "bold",
@@ -19,9 +13,9 @@ const bigTitle = {
   textAlign: "justify",
 };
 
-const bigImage = () => {
+const JobExperienceComponent = () => {
   return (
-    <Container style={main}>
+    <Container>
       <Row style={{ verticalAlign: "middle", alignItems: "center" }}>
         <Col xs={12} md={6} lg={6}>
           <Col>
@@ -178,4 +172,4 @@ const bigImage = () => {
     </Container>
   );
 };
-export default bigImage;
+export default JobExperienceComponent;
