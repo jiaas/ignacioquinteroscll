@@ -6,6 +6,7 @@ module.exports = {
       "Mi nombre es Javier Ignacio Quinteros, pero tu puedes llamarme cuando quieras, osea, siempre que necesites un Desarrollador Fullstack.",
   },
   plugins: [
+    "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-dark-mode",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
