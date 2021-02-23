@@ -6,6 +6,14 @@ const CardDeckComponent = () => {
   return (
     <Container>
       <Row>
+        <Col
+          xs={12}
+          md={12}
+          lg={12}
+          style={{ paddingTop: "3%", textDecoration: "underline" }}
+        >
+          <h6>ÚLTIMOS POSTS</h6>
+        </Col>
         <CardDeck style={{ paddingBottom: "5%" }}>
           <Col xs={12} md={4} lg={4} style={{ paddingTop: "3%" }}>
             <Card>

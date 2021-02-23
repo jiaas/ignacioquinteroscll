@@ -6,12 +6,12 @@ const bigTitle = {
   fontSize: "380%",
 };
 
-const GreetingsComponent = () => {
+const CallToActionComponent = () => {
   return (
     <Container>
-      <Row>
+      <Row justify="al">
         <Col sm={"12"} md={"12"} lg={"12"} style={{ paddingBottom: "5%" }}>
-          <h1 style={bigTitle}>Primero que nada... buenas noches!</h1>
+          <h1 style={bigTitle}>CONSTRUYAMOS JUNTOS EL FUTURO</h1>
           <h3>
             Buscabas un{" "}
             <span style={{ color: "#06a77d" }}> Desarrollador Fullstack</span>?
@@ -21,4 +21,4 @@ const GreetingsComponent = () => {
     </Container>
   );
 };
-export default GreetingsComponent;
+export default CallToActionComponent;

@@ -4,7 +4,7 @@ import Toggler from "../components/layout_component";
 
 const NavbarComponent = () => {
   return (
-    <Navbar sticky="top">
+    <Navbar>
       <Navbar.Toggle />
       <Navbar.Collapse
         className="justify-content-end"
