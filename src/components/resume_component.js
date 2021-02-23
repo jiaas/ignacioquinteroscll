@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, Badge } from "react-bootstrap";
-import avatarSVG from "../../assets/images/avatar.png";
+import avatarSVG from "../../assets/images/avatar.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendar,
