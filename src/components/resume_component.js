@@ -1,28 +1,20 @@
 import React from "react";
 import { Container, Row, Col, Image, Card, Badge } from "react-bootstrap";
-import dogSVG from "../../assets/images/capi2.png";
+import avatarSVG from "../../assets/images/avatar.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendar,
-  faCoffee,
   faEnvelope,
-  faInbox,
-  faLocationArrow,
   faMapPin,
-  faSearchLocation,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
-  faLinkedinIn,
-  faMailchimp,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-const box = {
-  backgroundColor: "white",
-  paddingTop: "5%",
-  paddingBottom: "5%",
+const fancyText = {
+  color: "#06a77d",
 };
 
 const ResumeComponent = () => {
@@ -38,9 +30,9 @@ const ResumeComponent = () => {
                     <Card.Body>
                       <Row>
                         <Col xs={12} md={12} lg={12}>
-                          <center>
+                          <center style={fancyText}>
                             <Image
-                              src={dogSVG}
+                              src={avatarSVG}
                               fluid
                               width="80%"
                               height="80%"
@@ -54,7 +46,12 @@ const ResumeComponent = () => {
                             <h6>Javier Ignacio</h6>
                             <h6>Quinteros Carvajal</h6>
 
-                            <Badge variant="secondary">
+                            <Badge
+                              style={{
+                                backgroundColor: "#f1a208",
+                                color: "#f7fff7",
+                              }}
+                            >
                               Desarrollador Fullstack
                             </Badge>
                             <Row>
