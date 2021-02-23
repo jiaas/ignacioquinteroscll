@@ -34,14 +34,8 @@ const ResumeComponent = () => {
                             <Image
                               src={avatarSVG}
                               fluid
-                              width="80%"
-                              height="80%"
-                              style={{
-                                paddingLeft: "10%",
-                                paddingRight: "10%",
-                                paddingTop: "5%",
-                                paddingBottom: "5%",
-                              }}
+                              width="250"
+                              height="250"
                             />
                             <h6>Javier Ignacio</h6>
                             <h6>Quinteros Carvajal</h6>
