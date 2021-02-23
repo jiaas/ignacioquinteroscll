@@ -15,6 +15,7 @@ import {
 
 const fancyText = {
   color: "#06a77d",
+  border: "0",
 };
 
 const ResumeComponent = () => {
@@ -32,11 +33,7 @@ const ResumeComponent = () => {
             <Card.Body>
               <Row>
                 <Col xs={12} md={3} lg={3} style={{ paddingTop: "3%" }}>
-                  <Card
-                    style={{
-                      border: "0",
-                    }}
-                  >
+                  <Card style={fancyText}>
                     <Card.Body>
                       <Row>
                         <Col xs={12} md={12} lg={12}>
@@ -45,7 +42,7 @@ const ResumeComponent = () => {
                             fluid
                             width="250"
                             height="250"
-                            style={{ padding: "10%" }}
+                            style={{ padding: "5%" }}
                           />
                           <h5 style={fancyText}>Javier Ignacio</h5>
                           <h5 style={fancyText}>Quinteros Carvajal</h5>
@@ -65,16 +62,32 @@ const ResumeComponent = () => {
                               Desarrollador Fullstack
                             </h6>
                           </Badge>
-                          <h6>
-                            <FontAwesomeIcon icon={faCalendar} /> 10 de Octubre,
-                            1995
-                          </h6>
-                          <h6>
-                            <FontAwesomeIcon icon={faMapPin} /> Santiago, Chile.
-                          </h6>
-                          <h6>
-                            <FontAwesomeIcon icon={faEnvelope} /> javier@nora.cl
-                          </h6>
+                          <Row
+                            style={{ paddingTop: "5%", paddingBottom: "5%" }}
+                          >
+                            <Col xs={2} md={2} lg={2}>
+                              <FontAwesomeIcon icon={faCalendar} />
+                            </Col>
+                            <Col xs={10} md={10} lg={10}>
+                              <h6>10 de Octubre, 1995</h6>
+                            </Col>
+                          </Row>
+                          <Row>
+                            <Col xs={2} md={2} lg={2}>
+                              <FontAwesomeIcon icon={faMapPin} />
+                            </Col>
+                            <Col xs={10} md={10} lg={10}>
+                              <h6>Santiago, Chile.</h6>
+                            </Col>
+                          </Row>
+                          <Row>
+                            <Col xs={2} md={2} lg={2}>
+                              <FontAwesomeIcon icon={faEnvelope} />{" "}
+                            </Col>
+                            <Col xs={10} md={10} lg={10}>
+                              <h6>javier@nora.cl</h6>
+                            </Col>
+                          </Row>
                         </Col>
                       </Row>
                       <Row style={{ paddingTop: "3%", paddingBottom: "3%" }}>
