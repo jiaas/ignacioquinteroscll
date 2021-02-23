@@ -22,71 +22,70 @@ const ResumeComponent = () => {
     <Container>
       <Row>
         <Col xs={12} md={12} lg={12} style={{ paddingTop: "3%" }}>
-          <Card style={{ fontWeight: "bold", color: "#1a535c" }}>
+          <Card
+            style={{
+              fontWeight: "bold",
+              color: "#1a535c",
+              border: "0",
+            }}
+          >
             <Card.Body>
               <Row>
                 <Col xs={12} md={3} lg={3} style={{ paddingTop: "3%" }}>
-                  <Card style={{ fontWeight: "bold", color: "#1a535c" }}>
+                  <Card
+                    style={{
+                      border: "0",
+                    }}
+                  >
                     <Card.Body>
                       <Row>
                         <Col xs={12} md={12} lg={12}>
-                          <center style={fancyText}>
-                            <Image
-                              src={avatarSVG}
-                              fluid
-                              width="250"
-                              height="250"
-                            />
-                            <h6>Javier Ignacio</h6>
-                            <h6>Quinteros Carvajal</h6>
+                          <Image
+                            src={avatarSVG}
+                            fluid
+                            width="250"
+                            height="250"
+                            style={{ padding: "10%" }}
+                          />
+                          <h5 style={fancyText}>Javier Ignacio</h5>
+                          <h5 style={fancyText}>Quinteros Carvajal</h5>
 
-                            <Badge
+                          <Badge
+                            style={{
+                              backgroundColor: "#f1a208",
+                              color: "#f7fff7",
+                              padding: "3%",
+                            }}
+                          >
+                            <h6
                               style={{
-                                backgroundColor: "#f1a208",
-                                color: "#f7fff7",
+                                paddingTop: "3%",
                               }}
                             >
                               Desarrollador Fullstack
-                            </Badge>
-                            <Row>
-                              <Col
-                                xs={4}
-                                md={4}
-                                lg={4}
-                                style={{ paddingTop: "5%" }}
-                              >
-                                <FontAwesomeIcon icon={faLinkedin} />
-                              </Col>
-                              <Col
-                                xs={4}
-                                md={4}
-                                lg={4}
-                                style={{ paddingTop: "5%" }}
-                              >
-                                <FontAwesomeIcon icon={faGithub} />
-                              </Col>
-                              <Col
-                                xs={4}
-                                md={4}
-                                lg={4}
-                                style={{ paddingTop: "5%" }}
-                              >
-                                <FontAwesomeIcon icon={faTwitter} />
-                              </Col>
-                            </Row>
-                            <h6>
-                              <FontAwesomeIcon icon={faCalendar} /> 10 de
-                              Octubre, 1995
                             </h6>
-                            <h6>
-                              <FontAwesomeIcon icon={faMapPin} /> Santiago,
-                              Chile.
-                            </h6>
-                            <h6>
-                              <FontAwesomeIcon icon={faEnvelope} />{" "}
-                              javier@nora.cl
-                            </h6>
-                          </center>
+                          </Badge>
+                          <h6>
+                            <FontAwesomeIcon icon={faCalendar} /> 10 de Octubre,
+                            1995
+                          </h6>
+                          <h6>
+                            <FontAwesomeIcon icon={faMapPin} /> Santiago, Chile.
+                          </h6>
+                          <h6>
+                            <FontAwesomeIcon icon={faEnvelope} /> javier@nora.cl
+                          </h6>
+                        </Col>
+                      </Row>
+                      <Row style={{ paddingTop: "3%", paddingBottom: "3%" }}>
+                        <Col>
+                          <FontAwesomeIcon icon={faLinkedin} />
+                        </Col>
+                        <Col>
+                          <FontAwesomeIcon icon={faGithub} />
+                        </Col>
+                        <Col>
+                          <FontAwesomeIcon icon={faTwitter} />
                         </Col>
                       </Row>
                     </Card.Body>
