@@ -21,8 +21,8 @@ const main = {
 const index = () => {
   return (
     <div>
+      <NavbarComponent></NavbarComponent>
       <Container style={main}>
-        <NavbarComponent></NavbarComponent>
         <GreetingsComponent></GreetingsComponent>
         <ResumeComponent></ResumeComponent>
         <CardDeckComponent></CardDeckComponent>
